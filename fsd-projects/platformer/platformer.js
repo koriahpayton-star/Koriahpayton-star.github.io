@@ -1,3 +1,5 @@
+// const { createRef } = require("react");
+
 $(function () {
   // initialize canvas and context when able to
   canvas = document.getElementById("canvas");
@@ -26,21 +28,55 @@ $(function () {
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
 
-    // TODO 1 - Enable the Grid
-    // toggleGrid();
+    //   TODO 1 - Enable the Grid
+      toggleGrid;
 
 
     // TODO 2 - Create Platforms
 
-
+createPlatform(320, 620, 100, 20, "grey")
+createPlatform(220,500,100,20,"blue")
+createPlatform(100,100, 20, 400, "grey")
+ createPlatform(120,400,70,20,"blue")
+ createPlatform(300,320,50,20,"grey")
+ createPlatform(120,200,70,20,"blue")
+ createPlatform(400,200,70,20,"grey")
+ createPlatform(600,200,70,20,"blue")
+ createPlatform(720,200,70,20,"grey")
+createPlatform(670,500,130,20,"blue")
+createPlatform(800,100,20,300,"grey")
+createPlatform(800,500,20,600,"blue")
+createPlatform(920,400,100,20, "grey")
+createPlatform(900,300,20,10, "blue")
+createPlatform(1000,220,70,10, "grey")
+createPlatform(1000,220,10,50, "blue")
+createPlatform(820,200,70,20, "grey")
+createPlatform(1100,100,70,20, "blue")
+createPlatform(1200,100,70,20, "grey")
+createPlatform(1100,300,130,20,"blue")
+createPlatform(1300,200,70,20,"grey")
 
 
     // TODO 3 - Create Collectables
+//     createCollectable("steve", 1100, 360);
+// createCollectable("idk", 600, 170, 0.5, 0.7)
+createCollectable("steve",130,180);
+createCollectable("diamond", 610,160);
+createCollectable("diamond", 1300, 160);
+
 
 
 
     
     // TODO 4 - Create Cannons
+//     createCannon("top", 700, 1000);
+// createCannon("right", 300, 2000);
+// createCannon("top", 200, 2000);
+// createCannon("right", 600, 2000);
+createCannon("top", 700, 1000);
+createCannon("right", 300,1000);
+createCannon("bottom", 700, 1000);
+createCannon("right", 500, 2000);
 
 
     
