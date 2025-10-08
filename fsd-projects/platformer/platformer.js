@@ -30,6 +30,7 @@ $(function () {
 
     //   TODO 1 - Enable the Grid
       toggleGrid;
+    //  I turned off the Grid because it makes the game laggy
 
 
     // TODO 2 - Create Platforms
@@ -61,7 +62,7 @@ createPlatform(1300,200,70,20,"grey")
 //     createCollectable("steve", 1100, 360);
 // createCollectable("idk", 600, 170, 0.5, 0.7)
 createCollectable("steve",130,180);
-createCollectable("diamond", 610,160);
+createCollectable("database", 610,160);
 createCollectable("diamond", 1300, 160);
 
 
@@ -74,7 +75,7 @@ createCollectable("diamond", 1300, 160);
 // createCannon("top", 200, 2000);
 // createCannon("right", 600, 2000);
 createCannon("top", 700, 1000);
-createCannon("right", 300,1000);
+createCannon("right", 300,1500);
 createCannon("bottom", 700, 1000);
 createCannon("right", 500, 2000);
 

@@ -41,12 +41,12 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #e1e3ec;
+    color: #2b2c34;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(166, 231, 237);
+    background: rgba(1, 5, 5, 0.115);
     display: flex;
     margin-top: 20px;
 }
@@ -86,17 +86,17 @@ h2, h3 {
 }
 
 #portfolio li {
-  background: #010505;
+  background: #3579794a;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
 #portfolio li:hover {
-  background: #0c0a0a;
+  background: #e4d3d3;
 }
 
 #portfolio a {
   text-decoration: none;
-  color: #8cb9dc;
+  color: #a7c9e2;
 }
